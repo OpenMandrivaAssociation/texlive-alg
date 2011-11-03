@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/alg
+# catalog-date 2006-12-17 11:41:28 +0100
+# catalog-license lppl
+# catalog-version 2001-03-13
 Name:		texlive-alg
 Version:	20010313
 Release:	1
@@ -45,6 +51,7 @@ floating body together with a header, a caption, etc.
 #- source
 %doc %{_texmfdistdir}/source/latex/alg/alg.dtx
 %doc %{_texmfdistdir}/source/latex/alg/alg.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ floating body together with a header, a caption, etc.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
