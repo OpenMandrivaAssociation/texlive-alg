@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version 2001-03-13
 Name:		texlive-alg
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	LaTeX environments for typesetting algorithms
 Group:		Publishing
