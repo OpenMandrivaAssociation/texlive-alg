@@ -6,7 +6,7 @@
 # catalog-version 2001-03-13
 Name:		texlive-alg
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	LaTeX environments for typesetting algorithms
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/alg
