@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	LaTeX environments for typesetting algorithms
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/alg
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/alg
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/alg.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/alg.doc.r%{version}.tar.xz
